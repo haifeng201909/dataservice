@@ -6,6 +6,7 @@
 
     <properties>
         <dataservice.version>2020.01.18</dataservice.version>
+        <slf4j.version>1.7.25</slf4j.version>
     </properties>
     <groupId>com.haifeng</groupId>
     <artifactId>dataservice</artifactId>
@@ -15,6 +16,7 @@
         <module>flink-env</module>
         <module>flink</module>
         <module>crypto</module>
+        <module>utils</module>
     </modules>
     <build>
         <plugins>
